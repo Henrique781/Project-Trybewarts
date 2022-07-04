@@ -2,6 +2,11 @@
   display: flex;
   background-color: rgb(50, 167, 145);
   justify-content: space-between;
+  align-items: center;
+  max-height: 80px;
+}
+
+.trybewarts-header-logo {
   max-height: 80px;
 }
 
@@ -9,6 +14,11 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+button {
+  color: white;
+  background-color: #2e2043;
 }
 
 #trybewarts-header-title {
@@ -29,4 +39,11 @@ main {
 #label-family {
   display: flex;
   flex-direction: column;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #222b41;
+  color: white;
 }
