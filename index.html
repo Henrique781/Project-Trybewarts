@@ -2,28 +2,26 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Trybewarts</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   </head>
+
   <header class="header">
     <img class="trybewarts-header-logo" alt="logo" src="images/trybewarts-header-logo.svg" />
     <h1 id="trybewarts-header-title">Trybewarts</h1>
     <form class="trybewarts-login">
-      <label>
-        Email
-        <input id="emailLogin" placeholder="Email" type="email" name="email" />
-      </label>
-      <label>
-        Senha
-        <input id="passwordLogin" placeholder="Senha" type="password" name="password" />
-      </label>
+      <input id="emailLogin" placeholder="Email" type="email" name="email" />
+      <input id="passwordLogin" placeholder="Senha" type="password" name="password" />
       <button id="loginButton">Entrar</button>
     </form>
   </header>
+
   <body>
     <main>
       <form id="evaluation-form">
-        <div>
+        <section>
             <label>
               Nome
               <input id="input-name" type="text" placeholder="Nome" />
@@ -32,8 +30,8 @@
               Sobrenome
               <input id="input-lastname" type="text" placeholder="Sobrenome" />
             </label>
-        </div>
-        <div>
+        </section>
+        <section>
             <label>
                 Email
                 <input id="input-email" type="email" placeholder="Email" />
@@ -47,7 +45,7 @@
                   <option id="pytherina-house" value="Pytherina">Pytherina</option>
                 </select>
             </label>
-        </div>
+        </section>
         <label id="label-family">Qual sua família?</label>
         <label for="front">
           <input id="front" type="radio" name="family" value="Frontend"/>Frontend
@@ -127,4 +125,7 @@
     </main>
   </body>
   <script src="script.js"></script>
+  <footer>
+    Direitos reservados à Trybewarts©
+  </footer>
 </html>
