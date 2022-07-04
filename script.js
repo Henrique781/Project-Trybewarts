@@ -5,12 +5,10 @@ const passwordLogin = document.querySelector("#passwordLogin");
 function getUserLoginButton(event) {
   event.preventDefault();
 
-  if(emailLogin.value === "trybe@teste.com" && passwordLogin.value === "123456") {
-    alert("Olá, Tryber!");
+  if(emailLogin.value === "tryber@teste.com" && passwordLogin.value === "123456") {
+    window.alert("Olá, Tryber!");
   } else {
-    alert("Email ou senha inválidos");
-    console.log(emailLogin.textContent);
-    console.log(passwordLogin.textContent);
+    window.alert("Email ou senha inválidos.");
   }
 }
 
