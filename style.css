@@ -1,9 +1,10 @@
 .header {
   display: flex;
+  flex-wrap: wrap;
   background-color: rgb(50, 167, 145);
   justify-content: space-between;
   align-items: center;
-  max-height: 80px;
+  /* max-height: 80px; */
   font-family: 'Times New Roman', Times, serif;
 }
 
@@ -13,6 +14,7 @@
 
 .trybewarts-login {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
 }
@@ -28,11 +30,14 @@ button {
 
 main {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   background-color: #efefef;
 }
 
 #evaluation-form {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   width: 675px;
   align-items: center;
@@ -43,7 +48,7 @@ main {
 #family-content {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  min-width: 50%;
 }
 
 #lessons-conteiner {
@@ -53,6 +58,12 @@ main {
 
 #section-2 {
   display: flex;
+  flex-wrap: wrap;
+}
+
+#trybewarts-forms-logo {
+  width: max-content;
+  max-width: 500px;
 }
 
 footer {
@@ -60,4 +71,18 @@ footer {
   justify-content: center;
   background-color: #222b41;
   color: white;
+}
+
+@media screen and (max-width: 700px) {
+  .header {
+    flex-direction: column;
+  }
+
+  #trybewarts-forms-logo {
+    width: 100%;
+  }
+
+  .trybewarts-login {
+    flex-direction: column;
+  }
 }
