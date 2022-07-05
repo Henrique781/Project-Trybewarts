@@ -4,6 +4,7 @@
   justify-content: space-between;
   align-items: center;
   max-height: 80px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .trybewarts-header-logo {
@@ -34,11 +35,24 @@ main {
   display: flex;
   flex-direction: column;
   width: 675px;
+  align-items: center;
+  justify-content: space-around;
+  font-family: 'Times New Roman', Times, serif;
 }
 
-#label-family {
+#family-content {
   display: flex;
   flex-direction: column;
+  width: 50%;
+}
+
+#lessons-conteiner {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#section-2 {
+  display: flex;
 }
 
 footer {
