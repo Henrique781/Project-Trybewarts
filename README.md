@@ -21,6 +21,10 @@ Este projeto foi proposto pela Trybe (escola de programação), ele simula um fo
 
 ![image](https://user-images.githubusercontent.com/93008737/177330232-4fb19b52-e543-4ef8-ad16-361325bed587.png)
 
+#### Resposividade
+
+![Trybewarts](https://user-images.githubusercontent.com/93008737/177396464-e7ff2e37-e1fd-4135-b438-c650aa4d09f3.gif)
+
 ## :hammer_and_wrench: Como abrir e rodar o projeto
 
 Para rodar o projeto, clone o repositório em sua máquina com o comando ```git clone git@github.com:Henrique781/Project-Trybewarts.git```   
